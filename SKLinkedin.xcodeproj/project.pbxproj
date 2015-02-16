@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C91DD3151A91ACD300303128 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C91DD3141A91ACD300303128 /* main.m */; };
+		C91DD3181A91ACD300303128 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C91DD3171A91ACD300303128 /* AppDelegate.m */; };
+		C91DD31B1A91ACD300303128 /* SKLinkedin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C91DD3191A91ACD300303128 /* SKLinkedin.xcdatamodeld */; };
+		C91DD31E1A91ACD300303128 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C91DD31D1A91ACD300303128 /* ViewController.m */; };
+		C91DD3211A91ACD300303128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C91DD31F1A91ACD300303128 /* Main.storyboard */; };
+		C91DD3231A91ACD300303128 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C91DD3221A91ACD300303128 /* Images.xcassets */; };
+		C91DD3261A91ACD300303128 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C91DD3241A91ACD300303128 /* LaunchScreen.xib */; };
+		C91DD3321A91ACD300303128 /* SKLinkedinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C91DD3311A91ACD300303128 /* SKLinkedinTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C91DD32C1A91ACD300303128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C91DD3071A91ACD200303128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C91DD30E1A91ACD200303128;
+			remoteInfo = SKLinkedin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C91DD30F1A91ACD300303128 /* SKLinkedin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKLinkedin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91DD3131A91ACD300303128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C91DD3141A91ACD300303128 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C91DD3161A91ACD300303128 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C91DD3171A91ACD300303128 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C91DD31A1A91ACD300303128 /* SKLinkedin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SKLinkedin.xcdatamodel; sourceTree = "<group>"; };
+		C91DD31C1A91ACD300303128 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C91DD31D1A91ACD300303128 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C91DD3201A91ACD300303128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C91DD3221A91ACD300303128 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C91DD3251A91ACD300303128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C91DD32B1A91ACD300303128 /* SKLinkedinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKLinkedinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91DD3301A91ACD300303128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C91DD3311A91ACD300303128 /* SKLinkedinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKLinkedinTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C91DD30C1A91ACD200303128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C91DD3281A91ACD300303128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C91DD3061A91ACD200303128 = {
+			isa = PBXGroup;
+			children = (
+				C91DD3111A91ACD300303128 /* SKLinkedin */,
+				C91DD32E1A91ACD300303128 /* SKLinkedinTests */,
+				C91DD3101A91ACD300303128 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C91DD3101A91ACD300303128 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C91DD30F1A91ACD300303128 /* SKLinkedin.app */,
+				C91DD32B1A91ACD300303128 /* SKLinkedinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C91DD3111A91ACD300303128 /* SKLinkedin */ = {
+			isa = PBXGroup;
+			children = (
+				C91DD3161A91ACD300303128 /* AppDelegate.h */,
+				C91DD3171A91ACD300303128 /* AppDelegate.m */,
+				C91DD31C1A91ACD300303128 /* ViewController.h */,
+				C91DD31D1A91ACD300303128 /* ViewController.m */,
+				C91DD31F1A91ACD300303128 /* Main.storyboard */,
+				C91DD3221A91ACD300303128 /* Images.xcassets */,
+				C91DD3241A91ACD300303128 /* LaunchScreen.xib */,
+				C91DD3191A91ACD300303128 /* SKLinkedin.xcdatamodeld */,
+				C91DD3121A91ACD300303128 /* Supporting Files */,
+			);
+			path = SKLinkedin;
+			sourceTree = "<group>";
+		};
+		C91DD3121A91ACD300303128 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C91DD3131A91ACD300303128 /* Info.plist */,
+				C91DD3141A91ACD300303128 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C91DD32E1A91ACD300303128 /* SKLinkedinTests */ = {
+			isa = PBXGroup;
+			children = (
+				C91DD3311A91ACD300303128 /* SKLinkedinTests.m */,
+				C91DD32F1A91ACD300303128 /* Supporting Files */,
+			);
+			path = SKLinkedinTests;
+			sourceTree = "<group>";
+		};
+		C91DD32F1A91ACD300303128 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C91DD3301A91ACD300303128 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C91DD30E1A91ACD200303128 /* SKLinkedin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C91DD3351A91ACD300303128 /* Build configuration list for PBXNativeTarget "SKLinkedin" */;
+			buildPhases = (
+				C91DD30B1A91ACD200303128 /* Sources */,
+				C91DD30C1A91ACD200303128 /* Frameworks */,
+				C91DD30D1A91ACD200303128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKLinkedin;
+			productName = SKLinkedin;
+			productReference = C91DD30F1A91ACD300303128 /* SKLinkedin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C91DD32A1A91ACD300303128 /* SKLinkedinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C91DD3381A91ACD300303128 /* Build configuration list for PBXNativeTarget "SKLinkedinTests" */;
+			buildPhases = (
+				C91DD3271A91ACD300303128 /* Sources */,
+				C91DD3281A91ACD300303128 /* Frameworks */,
+				C91DD3291A91ACD300303128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C91DD32D1A91ACD300303128 /* PBXTargetDependency */,
+			);
+			name = SKLinkedinTests;
+			productName = SKLinkedinTests;
+			productReference = C91DD32B1A91ACD300303128 /* SKLinkedinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C91DD3071A91ACD200303128 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Adit Hasan";
+				TargetAttributes = {
+					C91DD30E1A91ACD200303128 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C91DD32A1A91ACD300303128 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C91DD30E1A91ACD200303128;
+					};
+				};
+			};
+			buildConfigurationList = C91DD30A1A91ACD200303128 /* Build configuration list for PBXProject "SKLinkedin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C91DD3061A91ACD200303128;
+			productRefGroup = C91DD3101A91ACD300303128 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C91DD30E1A91ACD200303128 /* SKLinkedin */,
+				C91DD32A1A91ACD300303128 /* SKLinkedinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C91DD30D1A91ACD200303128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91DD3211A91ACD300303128 /* Main.storyboard in Resources */,
+				C91DD3261A91ACD300303128 /* LaunchScreen.xib in Resources */,
+				C91DD3231A91ACD300303128 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C91DD3291A91ACD300303128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C91DD30B1A91ACD200303128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91DD3181A91ACD300303128 /* AppDelegate.m in Sources */,
+				C91DD31B1A91ACD300303128 /* SKLinkedin.xcdatamodeld in Sources */,
+				C91DD31E1A91ACD300303128 /* ViewController.m in Sources */,
+				C91DD3151A91ACD300303128 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C91DD3271A91ACD300303128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C91DD3321A91ACD300303128 /* SKLinkedinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C91DD32D1A91ACD300303128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C91DD30E1A91ACD200303128 /* SKLinkedin */;
+			targetProxy = C91DD32C1A91ACD300303128 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C91DD31F1A91ACD300303128 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C91DD3201A91ACD300303128 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C91DD3241A91ACD300303128 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C91DD3251A91ACD300303128 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C91DD3331A91ACD300303128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C91DD3341A91ACD300303128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C91DD3361A91ACD300303128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKLinkedin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C91DD3371A91ACD300303128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKLinkedin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C91DD3391A91ACD300303128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKLinkedinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKLinkedin.app/SKLinkedin";
+			};
+			name = Debug;
+		};
+		C91DD33A1A91ACD300303128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKLinkedinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKLinkedin.app/SKLinkedin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C91DD30A1A91ACD200303128 /* Build configuration list for PBXProject "SKLinkedin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91DD3331A91ACD300303128 /* Debug */,
+				C91DD3341A91ACD300303128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C91DD3351A91ACD300303128 /* Build configuration list for PBXNativeTarget "SKLinkedin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91DD3361A91ACD300303128 /* Debug */,
+				C91DD3371A91ACD300303128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C91DD3381A91ACD300303128 /* Build configuration list for PBXNativeTarget "SKLinkedinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91DD3391A91ACD300303128 /* Debug */,
+				C91DD33A1A91ACD300303128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C91DD3191A91ACD300303128 /* SKLinkedin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C91DD31A1A91ACD300303128 /* SKLinkedin.xcdatamodel */,
+			);
+			currentVersion = C91DD31A1A91ACD300303128 /* SKLinkedin.xcdatamodel */;
+			path = SKLinkedin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C91DD3071A91ACD200303128 /* Project object */;
+}
