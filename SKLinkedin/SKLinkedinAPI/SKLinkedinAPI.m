@@ -38,7 +38,7 @@
 -(void)getAccessToken:(validAccessToken)handler{
     static NSString *accessToken = nil;
     
-    @synchronized(accessToken){
+    
     
   
     if(accessToken!=nil){
@@ -70,7 +70,7 @@
     
 }
     
-          }
+    
 }
 - (void)requestMeWithToken:(completionLinkedinBlock)handler failure:(failureLinkedinBlock)failhandle{
     // _client = [self client];
